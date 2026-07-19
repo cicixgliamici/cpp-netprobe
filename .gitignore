@@ -1,0 +1,44 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Local notes (not versioned)
+local/
+
+# PCAP capture files (can be large)
+*.pcap
+*.pcapng
+
+# IDE and editor files
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.user
+CMakeSettings.json
+.vs/
+
+# Compiled output
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Doxygen output
+docs/html/
+docs/latex/
+Doxyfile.bak
+
+# clang tools
+.clangd/
+compile_commands.json

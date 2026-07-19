@@ -15,6 +15,8 @@ include_directories(${PCAP_INCLUDE_DIRS})
 add_library(netprobe
     src/ethernet.cpp
     src/ipv4.cpp
+    src/ipv6.cpp
+    src/arp.cpp
     src/tcp.cpp
     src/udp.cpp
     src/icmp.cpp
